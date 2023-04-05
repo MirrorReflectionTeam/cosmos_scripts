@@ -1,6 +1,6 @@
 # MR COSMOS SCRIPTS
 
-### This repository simplifies your node installation by just one дшту
+### This repository simplifies your node installation by just one line
 
 - [Join our Telegram](https://t.me/MirrorReflectionFarming)
 - [Follow us on YouTube](https://www.youtube.com/@mirrorreflection)
