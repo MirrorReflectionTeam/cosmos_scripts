@@ -23,9 +23,6 @@ source <(curl -s https://raw.githubusercontent.com/MirrorReflectionTeam/cosmos_s
 
 printGREEN "4. Download and build binaries" && sleep 1
 
-curl https://get.gitopia.com | bash
-sudo mv /tmp/tmpinstalldir/git-remote-gitopia /usr/local/bin/
-
 cd || return
 rm -rf lava
 git clone https://github.com/lavanet/lava
@@ -98,4 +95,4 @@ sudo systemctl start lavad
 printLine
 echo -e "Check logs:            ${GREEN}sudo journalctl -u $BINARY_NAME -f --no-hostname -o cat ${NC}"
 echo -e "Check synchronization: ${GREEN}$BINARY_NAME status 2>&1 | jq .SyncInfo.catching_up${NC}"
-echo -e "You can add wallet and validator with :   https://github.com/MirrorReflectionTeam/cosmos_testnet_manuals/tree/main/gitopia#management"
+echo -e "You can add wallet and validator with :   https://github.com/MirrorReflectionTeam/cosmos_testnet_manuals/tree/main/lava#management"
