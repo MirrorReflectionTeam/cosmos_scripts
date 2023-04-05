@@ -23,11 +23,11 @@ source <(curl -s https://raw.githubusercontent.com/MirrorReflectionTeam/cosmos_s
 
 printGREEN "4. Download and build binaries" && sleep 1
 
-cd || return
+cd $HOME
 rm -rf lava
 git clone https://github.com/lavanet/lava
-cd lava || return
-git checkout v0.7.0
+cd lava
+git checkout v0.8.1
 make install
 lavad version
 
