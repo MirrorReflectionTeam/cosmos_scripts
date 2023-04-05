@@ -3,7 +3,7 @@ GREEN="\033[0;32m"
 RED="\e[1m\e[1;91m" 
 
 function printLogo {
-  bash <(curl -s https://raw.githubusercontent.com/chabanyknikita/cosmos_scripts/main/utils/mirror_reflection_logo.sh)
+  bash <(curl -s https://raw.githubusercontent.com/MirrorReflectionTeam/cosmos_scripts/main/utils/mirror_reflection_logo.sh)
 }
 
 function printLine {

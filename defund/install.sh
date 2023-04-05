@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source <(curl -s https://raw.githubusercontent.com/chabanyknikita/cosmos_scripts/main/utils/additional_commands.sh)
+source <(curl -s https://raw.githubusercontent.com/MirrorReflectionTeam/cosmos_scripts/main/utils/additional_commands.sh)
 
 printLogo
 
@@ -19,7 +19,7 @@ echo -e "Binary version tag: ${GREEN}$BINARY_VERSION_TAG${NC}"
 printLine
 sleep 1
 
-source <(curl -s https://raw.githubusercontent.com/chabanyknikita/cosmos_scripts/main/utils/install_dependies.sh)
+source <(curl -s https://raw.githubusercontent.com/MirrorReflectionTeam/cosmos_scripts/main/utils/install_dependies.sh)
 
 printGREEN "4. Download and build binaries" && sleep 1
 
@@ -61,7 +61,7 @@ printLine
 
 printGREEN "9. Changing port if you have more one node or enter 0 for default port" && sleep 1
 
-source <(curl -s https://raw.githubusercontent.com/chabanyknikita/cosmos_scripts/main/utils/change_port.sh) defund
+source <(curl -s https://raw.githubusercontent.com/MirrorReflectionTeam/cosmos_scripts/main/utils/change_port.sh) defund
 
 printLine
 
