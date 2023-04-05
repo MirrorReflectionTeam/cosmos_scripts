@@ -7,4 +7,4 @@
 - [Follow us on Twitter](https://twitter.com/MirrorRefTeam)
 - [Follow us on Instagram](https://instagram.com/mirrorreflection.hub?igshid=YmMyMTA2M2Y=)
 
-  **[Rent on Hetzner](https://hetzner.cloud/?ref=AwVksaI2T3Nz)** | **[Rent on Contabo](https://contabo.com/en)**
+**[Rent on Hetzner](https://hetzner.cloud/?ref=AwVksaI2T3Nz)** | **[Rent on Contabo](https://contabo.com/en)**
