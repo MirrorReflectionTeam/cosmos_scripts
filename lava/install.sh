@@ -7,7 +7,7 @@ printLogo
 CHAIN_ID="lava-testnet-1"
 CHAIN_DENOM="ulava"
 BINARY_NAME="lavad"
-BINARY_VERSION_TAG="v0.6.0"
+BINARY_VERSION_TAG="v0.9.8"
 
 read -r -p "Enter node moniker: " NODE_MONIKER
 
@@ -26,8 +26,8 @@ printGREEN "4. Download and build binaries" && sleep 1
 cd $HOME
 rm -rf lava
 git clone https://github.com/lavanet/lava
-cd lava
-git checkout v0.8.1
+cd lava 
+git checkout v0.9.8
 make install
 lavad version
 
