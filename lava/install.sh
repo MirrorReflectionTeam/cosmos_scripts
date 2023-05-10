@@ -7,7 +7,7 @@ printLogo
 CHAIN_ID="lava-testnet-1"
 CHAIN_DENOM="ulava"
 BINARY_NAME="lavad"
-BINARY_VERSION_TAG="v0.9.8"
+BINARY_VERSION_TAG="v0.10.1"
 
 read -r -p "Enter node moniker: " NODE_MONIKER
 
