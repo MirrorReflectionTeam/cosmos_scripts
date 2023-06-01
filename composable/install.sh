@@ -34,7 +34,7 @@ banksyd version
 printGREEN "5. Initialize the node" && sleep 1
 
 banksyd config chain-id banksy-testnet-2
-banksyd init $NODE_MONIKER --chain-id banksy-testnet-2
+banksyd init "$NODE_MONIKER" --chain-id banksy-testnet-2
 
 printGREEN "6. Download genesis and addrbook" && sleep 1
 
