@@ -93,7 +93,6 @@ curl -L https://snapshots-cosmos.mirror-reflection.com/cosmos-testnet/composable
 sudo systemctl daemon-reload
 sudo systemctl enable banksyd
 sudo systemctl start banksyd
-sudo journalctl -u banksyd -f --no-hostname -o cat
 
 printLine
 echo -e "Check logs:            ${GREEN}sudo journalctl -u $BINARY_NAME -f --no-hostname -o cat ${NC}"
